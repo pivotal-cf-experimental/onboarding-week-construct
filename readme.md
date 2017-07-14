@@ -2,38 +2,11 @@
 
 Install construct
 
-  git clone git@github.com:pivotal-cloudops/construct.git
+1. `git clone` this repo
+1. `cd` in the cloned repo
+1. run `./construct`
 
-Then run it
-
-    ./construct
-
-## Ops Manager: Some Manual Configuration is Required After Running Construct
-
-### Install XCode
-
-1. Download XCode
-    - If you are using the latest MacOS, then you can download XCode from the Mac App Store application.
-    - If you are not using the latest MacOS, then you can download older versions of XCode from here:
-    https://developer.apple.com/download/more/
-      - You can log in using the team Apple account stored in LastPass
-1. Accept the XCode license
-    - Either run `xcode` and manually click to accept the license, or `sudo xcodebuild -license accept`
-
-### Our team git repos
-
-1. Add your ssh key using youru usb thumb drive
-1. Clone all of the repos by running `/usr/local/bin/all_the_repos`.  
-   *`ombundle` (a zsh function) will run automatically, and will fail if XCode is not installed*
-1. Create your test database using `cd ~/workspace/installation/web && be rake clean`
-
-### RubyMine
-
-Please see [this readme](rubymine/readme.md) for additional manual configuration of RubyMine.
-
-<hr/>
-
-## General construct documentation
+## About construct
 
 ### construct Your Machine
 
