@@ -1,0 +1,7 @@
+email:
+  domain: pivotal.io
+email_addresses:
+  # for non-pivotal addresses
+  ex: example@nonpivotal.ca
+authors:
+  ea: Example Author; eauthor

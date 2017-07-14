@@ -1,0 +1,1 @@
+Slack is an IRC-like messaging system for interoffice communication.

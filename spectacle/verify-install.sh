@@ -1,0 +1,1 @@
+[ -d /Applications/Spectacle.app ]

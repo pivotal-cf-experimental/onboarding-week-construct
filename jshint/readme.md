@@ -1,0 +1,1 @@
+Linter for javascript

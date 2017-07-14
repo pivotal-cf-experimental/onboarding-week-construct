@@ -1,0 +1,1 @@
+Git secrets is a git commit hook for ensuring that secrets will not be checked into github

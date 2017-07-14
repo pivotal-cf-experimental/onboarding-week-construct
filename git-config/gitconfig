@@ -1,0 +1,87 @@
+[submodule]
+  fetchJobs = 7
+
+[interactive]
+  diffFilter = diff-highlight
+
+[color]
+  branch = auto
+  diff   = auto
+  status = auto
+  interactive = auto
+  status = auto
+  ui = auto
+
+[color "branch"]
+  current = yellow reverse
+  local   = yellow
+  remote  = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old  = red bold
+  new  = green bold
+
+[color "status"]
+  added     = green
+  untracked = cyan
+
+[branch]
+  autosetupmerge = true
+
+[rebase]
+  autosquash = true
+
+[alias]
+  st = status
+  di = diff
+  co = checkout
+  ci = duet-commit
+  br = branch
+  sta = stash
+  llog = log --date=local
+  flog = log --pretty=fuller --decorate
+	lg = log --graph  --abbrev-commit --date=relative --pretty=format:\"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<\\%an>%Creset\"
+  lol = log --graph --decorate --oneline
+  lola = log --graph --decorate --oneline --all
+  blog = log origin/master... --left-right
+  ds = diff --staged
+  fixup = commit --fixup
+  squash = commit --squash
+  unstage = reset HEAD
+  rum = rebase master@{u}
+  purr = pull --rebase
+  lga = log --graph  --abbrev-commit --date=relative --all --pretty=format:\"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<\\%an>%Creset\"
+  dci = duet-commit
+  drv = duet-revert
+  dmg = duet-merge
+  drb = rebase -i --exec \"git duet-commit --amend --reset-author\"
+
+[push]
+  default = simple
+
+[credential]
+  helper = cache --timeout 1200
+
+[core]
+  editor = /usr/local/bin/vim
+  pager = less -FXRS -x2
+  excludesfile = /Users/pivotal/.gitignore_global
+  hooksPath = /Users/pivotal/workspace/git-hooks-core
+
+[secrets]
+  patterns = AKIA[A-Z0-9]{16}
+  patterns = (\"|')?(AWS|aws|Aws)?_?(SECRET|secret|Secret)?_?(ACCESS|access|Access)?_?(KEY|key|Key)(\"|')?\\s*(:|=>|=)\\s*(\"|')?[A-Za-z0-9/\\+=]{40}(\"|')?
+  patterns = (\"|')?(AWS|aws|Aws)?_?(ACCOUNT|account|Account)_?(ID|id|Id)?(\"|')?\\s*(:|=>|=)\\s*(\"|')?[0-9]{4}\\-?[0-9]{4}\\-?[0-9]{4}(\"|')?
+  patterns = (\"|')*[A-Za-z0-9_-]*([sS]ecret|[pP]rivate[-_]?[Kk]ey|[Pp]assword|[sS]alt|SECRET|PRIVATE[-_]?KEY|PASSWORD|SALT)[\"']*\\s*(=|:|\\s|:=|=>)\\s*[\"'][A-Za-z0-9.$+=&\\/_\\\\-]{12,}(\"|')
+  allowed = [\"]\\$
+  allowed = [fF][aA][kK][eE]
+  allowed = [eE][xX][aA][mM][pP][lL][eE]
+
+[apply]
+  whitespace = nowarn
+
+[user]
+  email = cf-tempest-eng@pivotal.io
+  name = Ops Manager

@@ -1,0 +1,1 @@
+A minimal Git configuration

@@ -1,0 +1,1 @@
+test -f $HOME/.vim/README.md

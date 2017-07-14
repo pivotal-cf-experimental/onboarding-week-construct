@@ -1,0 +1,1 @@
+Vim is a powerful CLI based text editor.  Brew's version actually works like you expect it to.
