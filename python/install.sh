@@ -1,1 +1,1 @@
-brew install python
+brew install python python3
