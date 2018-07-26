@@ -1,1 +1,1 @@
-brew tap | grep -q "caskroom/cask"
+brew tap | grep -q "cask"
