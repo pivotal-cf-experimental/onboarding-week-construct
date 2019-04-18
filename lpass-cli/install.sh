@@ -1,1 +1,1 @@
-brew install lastpass-cli --with-pinentry
+brew install lastpass-cli
