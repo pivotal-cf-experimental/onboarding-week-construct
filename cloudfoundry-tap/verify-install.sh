@@ -1,0 +1,1 @@
+brew tap | grep --quiet -x cloudfoundry/tap

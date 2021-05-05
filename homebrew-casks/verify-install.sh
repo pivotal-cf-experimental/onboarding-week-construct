@@ -1,1 +1,1 @@
-brew tap | grep -q "cask"
+brew tap | grep -q "homebrew/cask"

@@ -1,1 +1,1 @@
-brew cask install spectacle
+brew install --cask spectacle

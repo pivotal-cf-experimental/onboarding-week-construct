@@ -1,0 +1,1 @@
+brew install cloudfoundry/tap/bosh-cli
