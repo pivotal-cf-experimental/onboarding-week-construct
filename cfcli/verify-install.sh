@@ -1,1 +1,0 @@
-brew list | grep --quiet -x cf-cli

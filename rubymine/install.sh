@@ -1,5 +1,5 @@
 cd $HOME #cask will try install a folder if it exists with the name below
-brew install --cask rubymine
+brew cask install rubymine
 
 echo
 echo "***************************************************************************************************"

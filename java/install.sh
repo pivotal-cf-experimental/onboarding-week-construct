@@ -1,2 +1,1 @@
-# This will install latest openJDK version
-brew install java
+brew cask install java

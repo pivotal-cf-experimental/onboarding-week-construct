@@ -1,1 +1,1 @@
-brew install --cask shiftit
+brew cask install shiftit

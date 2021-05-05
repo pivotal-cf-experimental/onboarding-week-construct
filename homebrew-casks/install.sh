@@ -1,1 +1,1 @@
-brew tap homebrew/cask
+brew tap caskroom/cask

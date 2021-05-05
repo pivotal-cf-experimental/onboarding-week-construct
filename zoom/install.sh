@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-brew install --cask zoomus
+brew cask install zoomus

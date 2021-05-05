@@ -1,1 +1,1 @@
-brew list | grep --quiet --line-regexp openjdk
+brew cask list | grep --quiet --line-regexp java

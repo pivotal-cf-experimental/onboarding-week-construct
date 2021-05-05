@@ -1,1 +1,1 @@
-brew list | grep -q -x iterm2
+brew cask list | grep -q -x iterm2

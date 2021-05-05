@@ -1,1 +1,1 @@
-brew list | grep --quiet python
+brew list | grep --quiet -x python
