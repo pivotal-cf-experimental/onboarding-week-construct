@@ -1,1 +1,4 @@
-brew cask install java
+
+# This will install openjdk
+
+brew install java
